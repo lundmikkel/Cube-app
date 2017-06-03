@@ -1,0 +1,22 @@
+li.answer {
+    display: inline-block;
+    clear: both;
+    float: left;
+}
+
+li.answer > div {
+    display: inline-block;
+
+}
+
+li.answer + li.answer  {
+    /*border-top: 1px solid grey;*/
+}
+
+li.answer.correct {
+    background-color: #dfd;
+}
+
+li.answer.incorrect {
+    background-color: #fdd;
+}

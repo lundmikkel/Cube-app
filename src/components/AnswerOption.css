@@ -1,0 +1,28 @@
+
+ul.answerOptions > li,
+ul.answerOptions > li * {
+  cursor: pointer;
+}
+
+.answerOption {
+  display: inline-block;
+  padding: 10px;
+}
+
+.answerOption:hover, .answerOption.selected {
+  background-color: #c6e6ff;
+}
+
+.answerOption:active {
+  background-color: #bae0ff;
+}
+
+.permutationName {
+    font-size: 130%;
+}
+
+.radioCustomButton {
+    position: absolute;
+    width: auto;
+    opacity: 0;
+}
